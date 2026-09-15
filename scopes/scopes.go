@@ -1,7 +1,7 @@
-package main
-import "fmt"
-var p int = 100
-func main(){
+ package main
+ import "fmt"
+ var p int = 100
+ func main(){
 	fmt.Println(p)
 	p:=200
 	fmt.Println(p)
@@ -9,8 +9,8 @@ func main(){
 	k:=ratul()
 	y:=p+k
 	fmt.Println("Ratul's Age+Money in pocket is:=",y)
-}
-func ratul() int {
+ }
+ func ratul() int {
 	age:=21
 	return age
-}
+ }
